@@ -1,3 +1,4 @@
+import Header from 'components/Header';
 import { NextPage } from 'next'
 import Head from 'next/head'
 
@@ -8,7 +9,14 @@ const Home: NextPage = () => {
         <title>Sven-Pro Portfolio</title>
       </Head>
 
-      <h1 className="text-red-500">Sven-Pro is here for you!</h1>
+      {/* Header */}
+      <Header />
+      {/* Hero */}
+      {/* About */}
+      {/* Experience */}
+      {/* Skills */}
+      {/* Projects */}
+      {/* Contact Me */}
     </div>
   )
 }
