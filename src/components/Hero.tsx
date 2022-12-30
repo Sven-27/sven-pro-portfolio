@@ -1,6 +1,8 @@
 import React from 'react';
 import BackgroundCircles from 'components/BackgroundCircles';
 import { Cursor, useTypewriter } from 'react-simple-typewriter';
+import Image from 'next/image';
+import author from '../../public/media/images/author.jpg';
 
 type Props = {}
 
@@ -17,10 +19,16 @@ const Hero = ({ }: Props) => {
   return (
     <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden">
       <BackgroundCircles />
-      <h2>
+      <Image
+        src={author}
+        alt="Picture of the author"
+        width={300}
+        className="rounded-full z-40"
+      />
+      <h1>
         <span>{text}</span>
         <Cursor cursorColor='#ddd' />
-      </h2>
+      </h1>
     </div>
   )
 }
