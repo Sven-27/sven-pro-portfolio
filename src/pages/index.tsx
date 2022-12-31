@@ -10,7 +10,6 @@ const Home: NextPage = () => {
         <title>Sven-Pro Portfolio</title>
       </Head>
       <Header />
-      {/* Hero */}
       <section id="hero" className="snap-center">
         <Hero />
       </section>
