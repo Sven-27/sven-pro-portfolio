@@ -21,7 +21,7 @@ const Hero = ({ }: Props) => {
     <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden">
       <BackgroundCircles />
       <Image
-        src={author}
+        src={ author }
         alt="Picture of the author"
         className="relative rounded-full h-32 w-32 mx-auto object-cover"
       />
